@@ -9,6 +9,7 @@ export default function DocumentUpload() {
   const [docId, setDocId] = useState(null);
   const [mcqs, setMcqs] = useState([]);
   const [quizStarted, setQuizStarted] = useState(false);
+   
   const [isUploading, setIsUploading] = useState(false);
   const [isGenerating, setIsGenerating] = useState(false);
   const [selectedDifficulty, setSelectedDifficulty] = useState("mixed");
